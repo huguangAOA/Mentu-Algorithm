@@ -1,0 +1,8 @@
+{
+    def a = 18, b = 19;
+    {
+        def a = 20;
+        print a, b, a > b; // 20 19
+    }
+    print a, b, a > b; // 18 19
+}

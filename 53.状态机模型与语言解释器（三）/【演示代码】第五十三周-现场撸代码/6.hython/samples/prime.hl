@@ -1,0 +1,9 @@
+{
+    for (def i = 2; i <= 100; i = i + 1) {
+        def flag = 1;
+        for (def j = 2; j * j <= i && flag; j = j + 1) {
+            if (i % j == 0) flag = 0;
+        }
+        if (flag) print i;
+    }
+}

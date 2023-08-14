@@ -1,0 +1,9 @@
+{
+    def a = 123, b = 456;
+    if (a < b) {
+        print a + b;
+    }
+    for (def i = 0; i < 10; i = i + 1) {
+        print i;
+    }
+}

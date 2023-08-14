@@ -1,0 +1,18 @@
+{
+    def a = 18, b = 19, c = 5;
+    {
+        def a = 20;
+        print a, b, a > b; // 20 19
+        if (a > b) {
+            print a;
+        } else {
+            print b;
+        }
+    }
+    print a, b, a > b; // 18 19
+    if (a > b) {
+        print a;
+    } else if (c == 5) {
+        print b;
+    }
+}

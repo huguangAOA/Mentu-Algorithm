@@ -1,0 +1,15 @@
+{
+    def a = 123, b = 456, c;
+    print a, b;
+    c = a - b;
+    print c;
+    {
+        def a = 97, c;
+        print a, b;
+        c = a - b;
+        print c;
+    }
+    for (def i = 0; i < 10; i = i + 1) {
+        print i;
+    }
+}
